@@ -20,6 +20,9 @@ class MiniMaple {
                 v = i + 1
             }
         }
+        if (finalExpression.charAt(0)==='+')
+        return finalExpression.substring(1,finalExpression.length)
+        else
         return finalExpression
     }
 
